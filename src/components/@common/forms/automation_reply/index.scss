@@ -1,0 +1,42 @@
+.times {
+  display: flex;
+
+  div.hours {
+    width: 20%;
+  }
+
+  div.minutes {
+    width: 20%;
+  }
+
+  div {
+    margin-right: 5px;
+  }
+
+  div:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.ui.fluid.multiple.search.selection.dropdown {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
+
+.ui.tiny.modal .ui.form .multiple.search .search, .ui.small.modal .ui.form .multiple.search .search {
+  display: flex !important;
+  flex: 1 !important;
+  position: relative !important;
+  width: auto !important;
+}
+
+.onReplayContains {
+  border: 1px solid red !important;
+  .dropdow {
+    display: none !important;
+  }
+  .message {
+    display: none !important;
+  }
+}

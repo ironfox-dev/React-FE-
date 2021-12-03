@@ -1,0 +1,38 @@
+.listItem {
+  text-align: left !important;
+  .listItemTime {
+    float: right;
+  }
+}
+
+.lead-status-icon {
+  padding-top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  font-size: 28px;
+}
+
+.lead-status-n {
+  background-color: #6435c9;
+}
+
+.lead-status-v {
+  background-color: #2cb3c8;
+}
+
+.lead-status-c {
+  background-color: #f2711c;
+}
+
+.lead-status-s {
+  background-color: #21ba45;
+}
+
+.lead-status-m, .lead-status-b {
+  background-color: #db2828;
+}

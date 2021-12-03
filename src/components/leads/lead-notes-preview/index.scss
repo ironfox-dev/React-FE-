@@ -1,0 +1,154 @@
+.Leads {
+    display: flex;
+    flex-direction: row;
+  
+    .leads-container {
+        flex: 1;
+    }
+  
+    .sidebarOpened {
+        width: calc(100% - 350px);
+    } 
+        
+    .lead-notes-profile-container{  
+        z-index: 19999;    
+        position: absolute;
+        top: 96px;
+        right: 0;
+        width: 350px;
+        background: white;
+        height: 100%;
+        border-radius: 0px;
+        overflow: auto;
+        // border-left: 1px solid #e1e1f0;
+        box-shadow: -1px 0 0 rgba(225, 225, 240,0.9) !important;
+  
+        .ui.segment {
+            padding: 0px;
+            border: none;
+            margin: 0px;
+        }
+  
+        .lead-n-p-content{ 
+            
+            display: flex;
+            flex-direction: column; 
+            padding: 0px;
+
+            .align-center{
+                align-items: center;
+            }
+
+            .align-stretch{
+                align-items: stretch;
+            }
+  
+            .lead-n-p-row{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 0px 45px;
+  
+                .circle-label{ 
+                    border-radius: 50%; 
+                    color: #FFFFFF; 
+                    text-align: center; 
+                    font-size: 25px;
+                    padding: 35px 20px;
+                    width: 90px;
+                    height: 90px;  
+                    margin-bottom: 20px;     
+                    position: relative;
+                    border: none;
+					font-family:'Averta',sans-serif;
+                } 
+				
+				.freshAppTimeLine ul .timeline-record {
+				min-width:unset !important;
+				
+				}
+				.freshAppTimeLine ul .timeline-record .timeline-text {
+				font-weight:400;
+				color:#666382;
+				}
+
+                .ui.label{
+                    border-radius: 50%;
+                }
+
+                .l-full-name{
+                    margin-bottom: 5px;
+                    font-size: 17px;
+                    color: #3c3a4e;
+                    font-family: 'Averta', sans-serif;
+                    font-weight: 500;
+                }
+
+                .l-email{
+                    margin-bottom: 10px;
+                    font-size: 15px;
+                    color: #b7bdd1;
+                    font-family: 'Averta', sans-serif;
+                    font-weight: 400;
+                } 
+            }
+  
+            .lead-n-p-row-top{ 
+                justify-content:space-between;  
+                border-bottom: 1px solid #e1e1f0;
+                padding:35px;
+                flex-direction: row;
+                margin-bottom: 50px;
+                display: flex;
+                align-items: baseline;
+  
+                .title{
+                    color: #3c3a4e;
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+                .link-profile{
+                    background-color: #4d77ff; 
+                    box-shadow: 0 3px 8px #0058ff66 !important;
+                    padding: 13px 25px;
+                    border-radius: 8px;
+
+                    a {
+                        color: #fff;
+                        font-size: 1rem;
+						font-weight:500;
+                    }
+                }
+
+                .link-profile:hover{
+                    background-color: #6684e6;
+                    cursor: pointer;
+                }
+            }
+        } 
+    }
+  }
+
+.endCall {
+    color: white !important;
+    background: crimson !important;
+}
+
+.onCall {
+    color: white !important;
+    background: #0ea432 !important;
+}
+
+.email:hover {
+    border: 1px dash #3c3a4e;
+}
+
+.editlead:hover{
+    border: 1px dash #3c3a4e;
+}
+  
+  .freshAppContainer {
+    padding: 0px;
+  }
+  
+  

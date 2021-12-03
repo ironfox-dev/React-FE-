@@ -1,0 +1,18 @@
+{
+  "fullname": {
+    "type": "string",
+    "required": true
+  },
+  "phone": {
+    "type": "string",
+    "required": true
+  },
+  "email": {
+    "type": "string",
+    "required": true
+  },
+  "metadata": {
+    "type": "any type",
+    "required": false
+  }
+}

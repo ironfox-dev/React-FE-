@@ -1,0 +1,56 @@
+{
+  "id": {
+    "type": "number"
+  },
+  "status": {
+    "type": "string"
+  },
+  "fullname": {
+    "type": "string"
+  },
+  "phone": {
+    "type": "string"
+  },
+  "email": {
+    "type": "string"
+  },
+  "metadata": {
+    "type": "text"
+  },
+  "created_at": {
+    "date": {
+      "type": "datetime"
+    },
+    "timezone_type": {
+      "type": "number"
+    },
+    "timezone": {
+      "type": "string"
+    }
+  },
+  "campaign": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "agent": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "avatar_path": {
+      "type": "string"
+    }
+  }
+}

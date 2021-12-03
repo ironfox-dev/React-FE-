@@ -1,0 +1,43 @@
+.LeadNotes {
+  .endCall {
+    color: white !important;
+    background: crimson !important;
+  }
+
+  .onCall {
+    color: white !important;
+    background: #0ea432 !important;
+  }
+
+  .export-data{
+    text-align: left;
+    padding: 20px 0;
+  }
+  .lead-profile {
+    .lead-profile-row {
+      padding: 5px;
+
+      .lead-profile-label {
+        width: 40%;
+        display: inline-flex;
+        text-align: left;
+        color: gray;
+      }
+
+      .lead-profile-value {
+        width: 60%;
+        display: inline-flex;
+        text-align: left;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
+
+
+.freshAppTimeLine ul .timeline-record .timeline-record-text {
+  padding: 35px !important;
+}

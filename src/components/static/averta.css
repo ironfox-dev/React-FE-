@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-black-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-black-webfont.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-blackitalic-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-blackitalic-webfont.woff) format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-extrabold-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-extrabold-webfont.woff) format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-extrabolditalic-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-extrabolditalic-webfont.woff) format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-light-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-light-webfont.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-lightitalic-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-lightitalic-webfont.woff) format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-regular-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-regular-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-semibold-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-semibold-webfont.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-semibolditalic-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-semibolditalic-webfont.woff) format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-thin-webfont.woff2) format('woff2'),
+         url(./fonts/averta/avertape-thin-webfont.woff) format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-thinitalic-webfont.woff2) format('woff2'),
+    url(./fonts/averta/avertape-thinitalic-webfont.woff) format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-bold-webfont.woff2) format('woff2'),
+    url(./fonts/averta/avertape-bold-webfont.woff) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url(./fonts/averta/avertape-bolditalic-webfont.woff2) format('woff2'),
+    url(./fonts/averta/avertape-bolditalic-webfont.woff) format('woff');
+    font-weight: 600;
+    font-style: italic;
+}

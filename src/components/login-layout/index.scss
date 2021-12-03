@@ -1,0 +1,62 @@
+div.login-form {
+	height: 100%;
+	background:#f7f9fa;
+}
+
+a {
+	color:#005ff8 ;
+}
+
+div.login-form  label a {
+	color: inherit !important;
+	border-bottom: 1px dashed #333;
+}
+
+div.login-form  label a:hover {
+	color:#005ff8 !important;
+}
+
+
+.ui.form .field.field input:-webkit-autofill, .ui.form .field.field input:-webkit-autofill:hover, .ui.form .field.field input:-webkit-autofill:focus, .ui.form .field.field input:-webkit-autofill:active  {
+	-webkit-box-shadow: 0 0 0 100px white inset !important;
+	border-color:rgba(34,36,38,.15) !important;
+}
+
+
+
+@media only screen and (max-width: 1126px)  {
+
+	div.login-form .logincontainer {
+		height: 100%;
+		width:90%;
+		max-width:100% !important;
+
+	}
+
+  div.login-form label, div.login-form  label a {
+    font-size:1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .ui.large.form {
+    font-size:1.3rem !important;
+  }
+
+  div.login-form .ui.form  input, div.login-form .ui.form  button {
+    font-size: 1.3em;
+  }
+
+  div.login-form .ui.form .field {
+    margin-bottom:1.3em;
+  }
+
+  .login-form .ui.stacked.segment p {
+    font-size: 23px !important;
+  }
+
+	div.login-form .logincontainer .ui.stacked.segment, div.login-form .logincontainer .ui.form {
+		height:100%;
+	}
+
+
+}

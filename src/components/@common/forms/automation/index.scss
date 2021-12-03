@@ -1,0 +1,19 @@
+.times {
+  display: flex;
+
+  div.hours {
+    width: 20%;
+  }
+
+  div.minutes {
+    width: 20%;
+  }
+
+  div {
+    margin-right: 5px;
+  }
+
+  div:last-of-type {
+    margin-right: 0;
+  }
+}

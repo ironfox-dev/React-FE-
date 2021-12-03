@@ -1,0 +1,148 @@
+.AgentProfile {
+  right: 0;
+  top: 95px;
+  position: absolute;
+  width: 350px;
+  height: 100vh;
+  z-index: 3;
+  background: white;
+  
+  
+.average-response-time {
+    text-align: left;
+	margin-top:50px;
+	width:100%;
+  }
+  
+.average-response-time ul {
+
+  width: 100% !important;
+  display: flex;
+  padding: 0 !important;
+  margin: 25px -10px 25px -10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+.average-response-time ul li { 
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+  margin-right: 0px !important;
+  text-align: center;
+  color: #9d9bb5;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+}
+
+.average-response-time ul li div {
+
+   margin: 0 0 15px 0 !important;
+   width:12px !important;
+   height:12px !important;
+   border:4px solid !important;
+   background-color:#fff !important;
+
+}
+
+.chart-wrapper {
+    margin:40px -30px 20px -30px  !important;
+}
+  .pie-graph {
+    text-align: center;
+  }  
+
+  .selectedAgent{
+    font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Averta',sans-serif;
+	font-weight: 800;
+	color: #9d9bb5;
+	text-align: left;  
+  }
+  .average-response-time-label{
+    text-align: center;
+    margin-top: 20px;
+	color: #9d9bb5;
+  }
+  
+  .average-response-time-label p {
+  
+  color: #9d9bb5;
+  background: #f6f6fa;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  display:table;
+  margin:0 auto;
+  padding:5px 20px 7px 20px;
+
+}
+  .time-to-contact{
+  font-size: 17px;
+	font-family: 'averta', sans-serif !important;
+	font-weight: 500;
+	text-transform: none;
+	text-transform: initial;
+	color: #3c3a4e;
+	margin: 0 auto;
+	text-align: left;  
+  }
+  .selectedName{
+    font-size: 17px;
+	font-family: 'averta', sans-serif !important;
+	font-weight: 500;
+	text-transform: none;
+	text-transform: initial;
+	color: #3c3a4e;
+	margin: 10px 0 10px 0;
+	text-align: left;  
+  }
+  .selectedContent1{
+    text-align: left;
+  }
+  .selectedContent2{
+   text-align: left;
+  }  
+  .dropdowncompany{
+    border: 1px solid #d5d5e5 !important;
+    border-radius: 7px !important;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow:1px 2px 0 1px rgba(225, 225, 240, 0.4);
+	
+	
+	label {
+	display:none !important;
+	}
+  }
+  .ui.button.dateSelector{
+    border: 1px solid #d5d5e5 !important;
+    background-color: #fff !important;
+	border-radius: 7px !important;
+    width: 100%;
+	padding:15px 15px 17px 15px !important;
+	box-shadow:1px 2px 0 1px rgba(225, 225, 240, 0.4);
+	text-align:left;
+	color:#7f7c9d !important;
+      
+  }
+  
+  .ui.button.dateSelector i {
+  
+   font-size: 16px;
+   color: #7f7c9d !important;
+   margin-right: 10px;
+ }
+  .field .ui.search.selection.dropdown{
+    width: 100%;
+  }
+}

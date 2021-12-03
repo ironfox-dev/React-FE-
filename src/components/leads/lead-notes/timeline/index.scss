@@ -1,0 +1,118 @@
+.freshAppTimeLine {
+  ul {
+    list-style: none;
+    padding: 0;
+
+    .timeline-record:first-child {
+      .timeline-status:first-child {
+        left: -16px;
+        font-weight: bold;
+        vertical-align: middle;
+        width: 35px;
+        height: 35px;
+
+        span {
+          margin: 0 auto;
+          margin-top: 8px;
+        }
+      }
+
+      .timeline-record-text {
+        background: none;
+        padding: 0;
+
+        label {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .timeline-record {
+      position: relative;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      min-height: 100px;
+
+      .timeline-record-text {
+        background-color: #f3f3f3;
+        color: #757575;
+        border-radius: 10px;
+        padding: 20px;
+        margin-left: 50px;
+
+        .timeline-text {
+          margin-top: 15px;
+        }
+
+        .creation-date, .creation-time {
+          color: #b4b4b4;
+        }
+
+        .creation-time {
+          float: right;
+          clear: right;
+        }
+      }
+
+      .timeline-status {
+        position: absolute;
+        z-index: 100;
+        left: -17px;
+        text-align: center;
+        display: inline-flex;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        color: #FFFFFF;
+      }
+
+      .timeline-color-n {
+        color: #6435c9;
+      }
+
+      .timeline-color-v {
+        color: #2cb3c8;
+      }
+
+      .timeline-color-c {
+        color: #f2711c;
+      }
+
+      .timeline-color-s {
+        color: #21ba45;
+      }
+
+      .timeline-color-m, .timeline-color-b {
+        color: #db2828;
+      }
+
+      .timeline-bg-color-n {
+        background-color: #6435c9;
+      }
+
+      .timeline-bg-color-v {
+        background-color: #2cb3c8;
+      }
+
+      .timeline-bg-color-c {
+        background-color: #f2711c;
+      }
+
+      .timeline-bg-color-s {
+        background-color: #21ba45;
+      }
+
+      .timeline-bg-color-m, .timeline-bg-color-b {
+        background-color: #db2828;
+      }
+
+
+      .timeline-vertical-line {
+        position: absolute;
+        width: 1px;
+        background-color: #c8c8c8;
+        height: 100%;
+      }
+    }
+  }
+}

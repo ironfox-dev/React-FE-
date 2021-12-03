@@ -1,0 +1,15 @@
+.freshAppEntityModal {
+}
+
+.modal {
+  height: auto !important;
+}
+.modal:after, .modal:before {
+  box-sizing: inherit;
+}
+
+.deleteButton {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+}

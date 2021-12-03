@@ -1,0 +1,219 @@
+.freshAppTimeLine {
+  ul {
+    list-style: none;
+    padding: 0;
+
+    // .timeline-record:first-child {
+    //   position: relative;
+    //   padding-top: 10px;
+    //   padding-bottom: 10px;
+    //   min-height: 100px;
+
+    //   background-color: #f6f6fa;
+    //   border: none;
+
+    //   .timeline-status:first-child {
+    //     left: -16px;
+    //     font-weight: bold;
+    //     vertical-align: middle;
+    //     width: 35px;
+    //     height: 35px;
+        
+
+    //     span {
+    //       margin: 0 auto;
+    //       margin-top: 8px;
+    //     }
+    //   }
+
+    //   .timeline-record-text-preview {
+    //     background: none;
+    //     padding: 0;
+
+    //     label {
+    //       font-weight: bold;
+    //     }
+    //   }
+    // }
+
+    .timeline-record {
+      position: relative;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      min-height: 100px; 
+      min-width: 300px;
+
+      .timeline-record-text-preview { 
+        color: #3c3a4e;
+        border-radius: 10px;
+        padding: 30px;
+        font-family: 'Averta', sans-serif;
+        font-weight: 500;
+
+        .timeline-text {
+          margin-top: 15px;
+          text-align: left;
+          word-break: break-all;
+        }
+
+        .display-date-time{
+          display: flex;
+          justify-content: space-between;
+
+          .creation-date, .creation-time {
+            color: #949bb5;
+          }
+  
+          .creation-time {
+            margin-right: 10px;
+          }
+        }
+
+        
+      }
+
+      .back-left{
+        background-color: #f6f6fa;
+      }
+
+        .back-right{
+        background-color: #e8edff;
+      }
+
+      .timeline-status {
+        position: absolute;
+        z-index: 100;
+        left: -9px;
+        text-align: center;
+        display: inline-flex;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        color: #FFFFFF;
+      }
+
+      .timeline-color-n {
+        back: #6435c9;
+      }
+
+      .timeline-color-v {
+        color: #2cb3c8;
+      }
+
+      .timeline-color-c {
+        color: #f2711c;
+      }
+
+      .timeline-color-s {
+        color: #21ba45;
+      }
+
+      .timeline-color-m, .timeline-color-b {
+        color: #db2828;
+        color: #fff;
+      }
+
+      .timeline-back-color-n {
+        background-color: #6435c9;
+        color: #fff;
+      }
+
+      .timeline-back-color-v {
+        background-color: #2cb3c8;
+        color: #fff;
+      }
+
+      .timeline-back-color-c {
+        background-color: #f2711c;
+        color: #fff;
+      }
+
+      .timeline-back-color-s {
+        background-color: #21ba45;
+        color: #fff;
+      }
+
+      .timeline-back-color-m, .timeline-back-color-b {
+        background-color: #db2828;
+        color: #fff;
+      }
+
+
+      .timeline-vertical-line {
+        position: absolute;
+        width: 1px;
+        background-color: #c8c8c8;
+        height: 100%;
+      }
+
+      .timeline-back-color-default{ 
+        color: #949bb5;
+        background-color: #ecedf6;
+      }
+
+      .arrow-down{ 
+        font-size: 30px;
+        font-weight: 600;  
+        display: flex;
+      }
+
+      .arrow-position-right{
+        color: #e8edff;
+        right: 30px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: -7px;
+        margin-right: 25px;
+      }
+
+      .arrow-position-left{
+        color: #f6f6fa;
+        left: 30px;
+        align-items: flex-start;
+        margin-top: -7px;
+        margin-left: 25px;
+      }
+
+      .circle-send-receive{
+        display: flex;
+        
+
+        .circle-send-receive-label{
+          border-radius: 50%; 
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: -7px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          
+          &.ml-10{
+            margin-left: 10px;
+          }
+          
+          &.mr-10{
+            margin-right: 10px;
+          }
+        }
+
+        &.circle-left{
+          justify-content: flex-start;
+          align-items: flex-start;
+          margin-left: 23px;
+          margin-right: 10px;
+        }
+
+        &.circle-right{
+          justify-content: flex-end;
+          align-items: baseline;
+          margin-left: 10px;
+          margin-right: 23px;
+        }
+      }
+
+      
+    }
+  }
+}

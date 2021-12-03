@@ -1,0 +1,150 @@
+.companyLeadStats {
+  width: 331px;
+  position: absolute;
+  background: white;
+  right: 0;
+  top: 96px;
+  height: 100%;
+  z-index: 3;
+
+  .company-name-header {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+
+    .company-name {
+      font-size: 24px;
+    }
+  }
+
+  .company-lead-stats-container {
+    padding: 20px;
+    text-align: left;
+    label {
+      font-weight: bold;
+    }
+  }
+
+  .averages {
+    margin: 20px auto;
+    color: #9d9bb5;
+    text-align:center;
+    
+    .avr_response_time{
+
+    color: #9d9bb5;
+    background: #f6f6fa;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600  !important;
+    display: table !important;
+    margin: 0 auto;
+    padding: 5px 20px 7px 20px;
+    font-size: 1rem;
+    }    
+  }
+
+
+  .totals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // background: red;
+    text-align: center;
+    justify-content: space-around;
+    
+    div {
+      background:#f6f6fa;
+      border:none !important;
+      border-radius:7px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width:125px;
+      height:125px;
+      text-transform: uppercase;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+
+    }
+    
+    .total-leads {
+      
+      padding: 20px;
+      text-transform: uppercase;
+      background:#f6f6fa !important;
+    }
+    
+      label {
+        color: #7f7c9d;
+        font-size: 11px;
+        font-weight: 600;
+      }
+    
+    .total-leads-converted {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      text-transform: uppercase;
+      background:#f6f6fa !important;
+    
+
+      .value:after {
+        background:#65a126;
+      }
+    }
+
+    .leads-contacted {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      text-transform: uppercase;
+      background:#f6f6fa !important;
+    
+
+      .value:after {
+        background:#ffcc00;
+      }
+    
+    }
+
+    .leads-missed {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      text-transform: uppercase;
+      background:#f6f6fa !important;
+    
+
+      .value:after {
+        background:#d40055;
+      }
+  
+    }
+
+    
+      .value {
+        font-size: 30px;
+        font-family: 'Averta',sans-serif;
+        color: #3c3a4e;
+        font-weight: 700;
+        margin-top: 15px;
+          
+      }
+      .value:after {
+        content:'';
+        display:block;
+        margin:10px auto;
+        width:35px;
+        height:5px;
+        border-radius:55px;
+        background:#4d77ff;
+        
+      }
+     
+  }
+}

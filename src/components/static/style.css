@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?404kka');
+  src:  url('fonts/icomoon.eot?404kka#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?404kka') format('truetype'),
+    url('fonts/icomoon.woff?404kka') format('woff'),
+    url('fonts/icomoon.svg?404kka#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+  content: "\e90b";
+}
+.icon-add:before {
+  content: "\e90c";
+}
+.icon-pencil:before {
+  content: "\e90d";
+}
+.icon-clickfunnels:before {
+  content: "\e907";
+}
+.icon-instapage:before {
+  content: "\e908";
+}
+.icon-unbounce:before {
+  content: "\e909";
+}
+.icon-webhook:before {
+  content: "\e90a";
+}
+.icon-zapier:before {
+  content: "\e906";
+}
+.icon-logoff:before {
+  content: "\e904";
+  color: #656565;
+}
+.icon-support:before {
+  content: "\e905";
+  color: #656565;
+}
+.icon-agents:before {
+  content: "\e900";
+  color: #8e8b8b;
+}
+.icon-clients:before {
+  content: "\e901";
+  color: #8e8b8b;
+}
+.icon-home1:before {
+  content: "\e902";
+  color: #8e8b8b;
+}
+.icon-leads:before {
+  content: "\e903";
+  color: #8e8b8b;
+}

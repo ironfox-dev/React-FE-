@@ -1,0 +1,29 @@
+.reminder {
+  margin: 10px 0;
+  background: #f16149;
+  border-radius: 3px;
+  padding: 15px;
+  color: #fff;
+  font-family: Roboto Condensed,sans-serif;
+  cursor: pointer;
+  .reminder-datetime {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 600;
+    color: #ffddc8;
+    .lead-note-date {
+      float: left;
+    }
+    .lead-note-time {
+      float: right;
+    }
+  }
+  .reminder-content {
+    text-align: left;
+    .icon-delete-reminder {
+      float: right;
+    }
+  }
+}

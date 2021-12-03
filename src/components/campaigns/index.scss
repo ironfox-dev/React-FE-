@@ -1,0 +1,98 @@
+.Campaigns.sidebarOpened{
+    width: calc(100% - 300px);
+}
+
+.Campaigns .ui.table td {
+
+    padding: 1.9em .78571429em ;
+}
+
+.Campaigns .ui.table tbody tr td {
+
+    background:#f6f6fa ;
+    border-top:none !important;
+    background-image: linear-gradient(to right, #c4c4ef 47%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+
+
+    .table-head.blue, .table-head.yellow {
+        display:inline;
+    }
+
+    .ui.button.integration-but {
+        background:transparent !important;
+        color:#9d9bb5 !important;
+    }
+
+    .ui.button.integration-but:hover {
+        color:#4d77ff !important;
+    }
+
+    .table-cell-value {
+        color: #666382;
+        font-size: 15px;
+        font-family: 'Averta', sans-serif;
+        font-weight: 500;
+        .NoAgentName{
+            font-size: 12px;
+            letter-spacing: -0.9px;
+            color: darkgray;        
+        }    
+    }
+  
+}
+
+.Campaigns .right.menu .ui.button.left {
+    background-color: transparent !important;
+    border: 2px solid #4d77ff !important;
+    color: #4d77ff !important;
+    box-shadow: none !important;
+    padding: 13px 25px !important;
+    margin-right: 15px;
+    line-height: 1.5;
+    margin-top: -5px;
+
+}
+.Campaigns .right.menu a:hover .ui.button.left {
+
+    color: #fff !important;
+    background:#4d77ff !important;
+}
+
+
+.Campaigns .ui.table tbody tr:hover td .ui.button.integration-but {
+    border:none !important;
+}
+
+.Campaigns  .ui.table tr td:last-child .ui.buttons::before {
+
+    top:31px !important;
+    background:transparent !important;
+}
+
+.Campaigns .ui.table tbody tr td:nth-child(3), .Campaigns .ui.table tbody tr td:nth-child(4), .Campaigns .ui.table tbody tr td:nth-child(5) {
+    text-align:center;
+}
+
+.Campaigns .ui.table {
+    border:none ;
+}
+
+.ui.basic.segment.integrations {
+margin-top:50px !important;
+
+}
+
+.Campaigns .ui.table tbody tr td:first-child {
+    width:50px !important;
+}
+
+.Campaigns  .subhead.company {
+
+    color: #9d9bb5;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
